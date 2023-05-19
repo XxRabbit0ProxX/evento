@@ -45,8 +45,7 @@ $("#btnReg").on("click", function () {
             minlength: 8
          },
          confPass: {
-            required: true,
-            equalTo: "#contrasena"
+            required: true
          },
          categoria: {
             required: true
@@ -77,8 +76,7 @@ $("#btnReg").on("click", function () {
             minlength: "Minimo 8 caracteres"
          },
          confPass: {
-            required: "Este campo es obligatorio",
-            equalTo: "Las contraseñas no coinciden",
+            required: "Este campo es obligatorio"
          },
          categoria: {
             required: "Este campo es obligatorio"
